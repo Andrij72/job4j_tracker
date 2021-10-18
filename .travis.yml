@@ -5,11 +5,9 @@ jdk:
 
 env:
   global:
-    - CODECOV_TOKEN="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"
-
+    - CODECOV_TOKEN="Jx0423-NMAN3ajgyKmEsTQ"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-
 notifications:
   email:
     recipients:
